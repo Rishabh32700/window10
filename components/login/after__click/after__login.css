@@ -1,0 +1,77 @@
+.after__login{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-image: url("../assests/after__login.jpg");
+    background-size: 100% 100%;
+    /* filter: blur(15px); */
+}
+
+.after__login__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    backdrop-filter: blur(15px);
+}
+
+.after__login__container .profile__pic{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.after__login__container .profile__pic img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.after__login__container .name h1{
+    color: white;
+    font-weight: lighter;
+    font-family: 'Segoe UI Light';
+    font-size: 3rem;
+    margin-top: 1rem;
+
+}
+
+.after__login__container .password{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4.5vh;
+    width: 20vw;
+    margin-top: 1rem;
+}
+
+.after__login__container .password input{
+    border: none;
+    outline: none;
+    height: 100%;
+    width: 90%;
+    padding-left: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.after__login__container .password input::placeholder{
+    font-weight: lighter;
+}
+
+.after__login__container .password .enter{
+    height: 100%;
+    width: 10%;
+    background-color: grey;
+
+}
+
+.after__login__container .password .enter a .arrow{
+    
+    height: 98%;
+    width: 99%;
+    color: white;
+    backdrop-filter: blur(10px);
+    
+}
